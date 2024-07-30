@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Zomato logo in the tab -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png"
+    />
+    <!-- Font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Poppins font by google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Importing styles.css -->
+    <link rel="stylesheet" href="index.css">
+
+    <title>Zomato Landing Page Clone</title>
+  </head>
+  <body>
+    <section class="hero_section">
+      <header>
+        <nav class="navbar">
+        <a href="#">get the app</a>
+        <div class="navbar_container">
+          <a href="#" class="link">Inventor Relations</a>
+          <a href="#" class="link">Add Restaurants</a>
+          <a href="#" class="link">Login</a>
+          <a href="#" class="link">Sign Up</a>
+          <a href="#" class="user_icon"> 
+            <i class="fa-solid fa-user"></i>
+          </a>
+        </div>
+        </nav>
+      </header>
+      <div class="hero__section_container">
+        <img src="images/heroSectionLogo.png" alt="Zomato_logo" class="hero__section_logo">
+        <h1 class="text">Descover The Best Food & Drinks In Chennai-Hospet</h1>
+        <div class="hero__section_input">
+          <input class="hero__section_location" type="text" placeholder="Chennai-Hospet">
+          <input class="hero__section_search" type="text" placeholder="Search For The Restaurant, Cuisine Or A Dish">
+        </div>
+      </div>
+    </section>
+    <section class="container we__offer">
+      <div class="we__offer_card">
+        <img src="images/item1.png" alt="item1">
+        <div class="we__offer_content">
+          <h2>order online</h2>
+          <p>stay home and order to your doorstep</p>
+        </div>
+      </div>
+
+      <div class="we__offer_card">
+        <img src="images/item2.png" alt="item2">
+        <div class="we__offer_content">
+          <h2>dinning</h2>
+          <p>view the cities favourite dinning venue</p>
+        </div>
+      </div>
+
+      <div class="we__offer_card">
+        <img src="images/item3.png" alt="item3">
+        <div class="we__offer_content">
+          <h2>hightlife and culbes</h2>
+          <p>explore the cities top hightlife outlets</p>
+        </div>
+      </div>
+      
+      <div class="we__offer_card">
+        <img src="images/item4.png" alt="item4">
+        <div class="we__offer_content">
+          <h2>snacks food</h2>
+          <p>list out the best snacks menus</p>
+        </div>
+      </div>
+    </section>
+    <section class="container collections">
+      <h1>collections</h1>
+      <div class="sub_heading_container">
+        <span>explore curated lists of top Restaurants, cafes, pubs in hospet-Chennai based on trends</span>
+        <span>all collections in hospet-Chennai</span>        
+      </div>
+      <div class="collections_card_container">
+        <div class="card card1">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>live cricket screening</h4>
+            <span>56 places</span>
+          </div>
+        </div>
+  
+        <div class="card card2">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>biriyani special</h4>
+            <span>16 places</span>
+          </div>
+        </div>
+  
+        <div class="card card3">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>pubs near me</h4>
+            <span>20 places</span>
+          </div>
+        </div>
+  
+        <div class="card card4">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>best parks</h4>
+            <span>26 places</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container get_the_app">
+      <div class="semicontainer">
+        <div class="left">
+          <img src="images/mobileBanner.png"> 
+        </div>
+        <div class="right">
+          <h1>Get the zomato app</h1>
+          <p>We will send you a link, open it and download in your phone</p>
+          <div class="radio_button_container">
+            <div>
+              <input type="radio" id="email" name="download_app">
+              <label for="email" style="font-size: 14px;">Email</label>
+            </div>
+            <div>
+              <input type="radio" id="phone" name="download_app">
+              <label for="phone" style="font-size: 14px;">Phone</label>
+            </div>
+          </div>
+          <div class="input_container">
+            <input type="text" placeholder="Email">
+            <button>Share app link</button>
+          </div>
+          <div class="download_app_container">
+            <h5>Download app from</h5>
+            <div>
+            <img src="images/appleStore.png" alt="apple store">
+            <img src="images/playStore.png" alt="playstore">
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="container explore">
+      <div class="headeroptions">
+       <div class="options">
+          <h4>Explore options near me</h4>
+          <select>
+          <option>popular kfcs near me</option>
+          </select>
+          <select>
+          <option>popular Restaurant and fast food centers</option>
+          </select>
+          <select>
+          <option>popular pubs near me</option>
+          </select>
+       </div>
+      </div>
+    </section>
+    <footer class="container footer">
+      <div class="footer_section1">
+        <img src="images/logo.png" alt="zomato logo">
+        <div class="section1_buttons">
+          <button>
+          <img src="https://flagcdn.com/w40/in.png" alt="indian flag" style="width: 15px;">
+            india
+          </button>
+
+          <button><i class="fa fa-globe"></i>english</button>
+        </div>        
+      </div>
+
+      <div class="navigation_container">
+        <div class="link_container">
+          <h5>ABOUT ZOMATO</h5>
+          <a class="footer_link" href="#">blogs</a>
+          <a class="footer_link" href="#">work with use</a>
+          <a class="footer_link" href="#">investor relations</a>
+          <a class="footer_link" href="#">report fraud</a>
+          <a class="footer_link" href="#">who we are</a>
+        </div>
+
+       <div class="link_container">
+          <h5>ZOMAVERSE</h5>
+          <a class="footer_link" href="#">zomato</a>
+          <a class="footer_link" href="#">blinkit</a>
+          <a class="footer_link" href="#">feeding india</a>
+          <a class="footer_link" href="#">hyperpure</a>
+          <a class="footer_link" href="#">zomaland</a>
+        </div>
+
+       <div class="link_container">
+          <h5>RESTAURANTS</h5>
+          <a class="footer_link" href="#">partner with us</a>
+          <a class="footer_link" href="#">apps for you</a>
+          <br/>
+          <h5>FOR ENTERPRISES</h5>
+          <a class="footer_link" href="#">zomato for work</a>
+        </div>
+
+        <div class="link_container">
+          <h5>LEARN MORE</h5>
+          <a class="footer_link" href="#">privacy</a>
+          <a class="footer_link" href="#">security</a>
+          <a class="footer_link" href="#">terms india</a>
+          <a class="footer_link" href="#">sistemapc</a>
+        </div>
+
+        <div class="link_container">
+          <h5>social media</h5>
+          <div class="section_links_container">
+            <button><i class="fa-brands fa-linkedin-in"></i></button>
+            <button><i class="fa-brands fa-instagram"></i></button>
+            <button><i class="fa-brands fa-twitter"></i></button>
+            <button><i class="fa-brands fa-facebook"></i></button>
+            <button><i class="fa-brands fa-youtube"></i></button>
+          </div>
+          <br/>
+          <img src="images/appleStore.png" alt="apple store" class="footer_section_logos">
+          <img src="images/playStore.png" alt="playstore" class="footer_section_logos">
+        </div>
+      </div>
+      <div class="disclamer">
+        By continuing path this page, you agree to our terms of service, cookie policy, privacy policy and content policies.
+        all trademarks are properties of their respective owners. 2008-2023 zomato ltd. all rights reserved.
+        <div class="sign">
+          <h5 class="h5sign">"SURESH PASUPULETI"</h5>
+          <!-- <hr/> -->
+          <h6 class="h6sign">-VaSu</h6>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
